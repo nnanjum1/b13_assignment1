@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+
+}
+
+.btn {
+    background-color: #30B868;
+    border: none;
+    padding: 12.5px 16px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 16;
+    display: inline-flex;
+    gap: 10px;
+    font-weight: 600;
+    align-items: center;
+    cursor: pointer;
+}
+
+#navigation {
+    background-color: #FFFFFF;
+
+
+
+}
+
+nav {
+    display: flex;
+    margin: 16px auto;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .nav-content ul {
+    display: flex;
+    gap: 32px;
+}
+
+nav .nav-content li {
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+#banner {
+    background-image: url(./assets/hero-bg.png);
+    width: 100%;
+    height: 674px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.btn-early .light-circle {
+    border-radius: 50%;
+    width: 6px;
+    height: 6px;
+    background-color: #30B868;
+    box-shadow: 0 0 0 3px rgba(48, 184, 104, 0.4),
+        0 0 0 6px rgba(48, 184, 104, 0.2);
+}
+
+.btn-early {
+
+    gap: 11px;
+    display: inline-flex;
+    align-items: center;
+    border-radius: 25px;
+    padding: 8px 12px 8px 17px;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: #30B868;
+    cursor: pointer;
+}
+
+#banner .banner-content {
+    margin: 0 auto;
+    vertical-align: middle;
+    text-align: center;
+
+}
+
+.color-green {
+    color: #30B868;
+}
+
+#banner .banner-heading {
+    text-align: center;
+    max-width: 770px;
+}
+
+#banner .banner-heading .title {
+    margin-top: 16px;
+    margin-bottom: 16px;
+    font-size: 72px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+#banner .banner-heading p {
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-bottom: 32px;
+}
+
+.btn-transparent {
+    margin-left: 16px;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 12.5px 16.5px;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-size: 16;
+    display: inline-flex;
+    gap: 10px;
+    font-weight: 600;
+    align-items: center;
+    cursor: pointer;
+}
