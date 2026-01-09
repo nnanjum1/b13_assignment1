@@ -23,6 +23,11 @@
     cursor: pointer;
 }
 
+.btn:hover {
+    background-color: #FFFFFF;
+    color: black;
+}
+
 #navigation {
     background-color: #FFFFFF;
 
@@ -83,6 +88,11 @@ nav .nav-content li {
     cursor: pointer;
 }
 
+.btn-early:hover {
+    background-color: #58cf5a;
+    color: white;
+}
+
 #banner .banner-content {
     margin: 0 auto;
     vertical-align: middle;
@@ -114,6 +124,11 @@ nav .nav-content li {
     margin-bottom: 32px;
 }
 
+.btn span img {
+    width: 14px;
+    height: 14px;
+}
+
 .btn-transparent {
     margin-left: 16px;
     background-color: transparent;
@@ -127,4 +142,71 @@ nav .nav-content li {
     font-weight: 600;
     align-items: center;
     cursor: pointer;
+}
+
+.btn-transparent:hover {
+    background-color: #FFFFFF;
+    color: black;
+}
+
+.notes-heading {
+    text-align: center;
+    margin-top: 44px;
+    margin-bottom: 44px;
+}
+
+.notes-heading h2 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.notes-heading p {
+    margin-top: 16px;
+    font-size: 16px;
+    color: #627382
+}
+
+.notes-cards {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+}
+
+.card p {
+    max-width: 274px;
+    margin-top: 16px;
+    margin-bottom: 69px;
+    font-size: 16px;
+    color: #627382;
+}
+
+.card h4 {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.card-img {
+    margin-top: 69px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #F95555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.card-img img {
+    width: 30px;
+    height: 30px;
 }
