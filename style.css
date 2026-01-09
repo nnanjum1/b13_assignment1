@@ -32,11 +32,7 @@
 
 #navigation {
     background-color: #FFFFFF;
-
-
-
 }
-
 
 
 nav {
@@ -61,7 +57,7 @@ nav .nav-content li {
 
 #banner {
     background-image: url(./assets/hero-bg.png);
-
+    background-repeat: no-repeat;
     width: 100%;
     max-width: 1600px;
     height: 100vh;
@@ -355,6 +351,15 @@ nav .nav-content li {
     list-style-type: none;
     color: #FFFFFF;
 
+}
+
+.footer-line {
+    margin: 0 auto;
+    margin-bottom: 30px;
+    width: 90%;
+    height: 1px;
+    border: none;
+    background-color: #627382;
 }
 
 .copyright {
